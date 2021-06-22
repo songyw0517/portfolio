@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../static/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../static/vendor/bootstrap-4.4.1-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/animate.css">
+	<title>Scof</title>
+</head>
+<body>
+	<!-- Navigation -->
+	<nav>
+		<div>
+			<a class="logo" href="#page-top">Scof</a>
+			<div class="nav-toggle">
+				<i class="fas fa-bars fa"></i>
+			</div>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#service">Service</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Header -->
+	<header class= "header">
+		<!-- / STAR ANIMATION -->
+		<div class="bg-animation">
+			<div id='stars'></div>
+			<div id='stars2'></div>
+			<div id='stars3'></div>
+			<div id='stars4'></div>
+		</div>
+		<div class="container">
+			<!-- STAR ANIMATION -->
+			<div id="clock">
+				<p class="date">{{ date }}</p>
+				<p class="time">{{ time }}</p>
+			</div>
+			
+		</div>
+	</header>
+
+	<!-- About Section -->
+	<section class="section" id="about">
+		<div class="container">
+			<div id="insta_about" class="row">
+				<div id="insta_title" class="col-sm-12 col-md-4 col-lg-4">
+					<div id="insta_my">
+						<img src="../static/img/about_1.jpg">
+					</div>
+					<h1>Scof</h1>
+				</div>
+				<div id="insta_photo">
+					<img src="../static/img/about_1.jpg">
+				</div>
+				<div class="middle_bar">
+					<i class="far fa-heart"></i>
+					<a href="#contact"><i class="far fa-handshake"></i></a>
+					<i class="far fa-bookmark" style="float: right"></i>
+					<hr>
+				</div>
+				<div id="about_info" class="col-sm-12 col-md-4 col-lg-4">
+					<div>
+						<h2 class="nickname">Scof</h2>
+						<button id="following">FOLLOWING</button>	
+					</div>
+					
+					<div>
+						<h6 class="font3">송용욱</h6>
+						<span class="font3">게시물<span>5</span></span>
+						<span class="font3">조회수<span>5</span></span>
+						<hr>
+					</div>
+
+					<p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop pub</p>
+					
+				</div>
+				<div class="SNS_items col-sm-12 col-md-4 col-lg-4">
+					<hr>
+					<li><i class="fab fa-facebook-square"><a href="#"><span>FACEBOOK</span></a></i></li>
+					<li><i class="fab fa-instagram"><a href="#"><span>INSTAGRAM</span></a></i></li>
+					<li><i class="fab fa-github-square"><a href="#"><span>GITHUB</span></a></i></li>
+					<li><i class="fas fa-paper-plane"><a href="#"><span>BLOG</span></a></i></li>
+				</div>
+				<span class="col-md-1 col-lg-1"></span>
+			</div>
+		</div>
+	</section>
+	<hr>
+
+	<!-- Service Section -->
+	<section id="service">
+		<div class="container wrapper-slider">
+			<ul class="items">
+				<li class="item">js</li>
+				<li class="item">html</li>
+				<li class="item">css</li>
+				<li class="item">c</li>
+				<li class="item">java</li>
+				<li class="item">python</li>
+				<li class="item">c++</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Portfolio Section -->
+	<section class="section" id="portfolio">
+		<h1 class="section_title text-center">Portfolio title</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="tile">
+						<img src='https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'/>
+						<div class="text">
+							<h1>Lorem ipsum.</h1>
+							<h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+							<p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="tile"> 
+						<img src='https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80'/>
+						<div class="text">
+							<h1>Lorem ipsum.</h1>
+							<h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+							<p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="tile"> 
+						<img src='https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80'/>
+						<div class="text">
+							<h1>Lorem ipsum.</h1>
+							<h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+							<p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="tile">
+						<img src='https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'/>
+						<div class="text">
+							<h1>Lorem ipsum.</h1>
+							<h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+							<p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4">
+					<div class="tile"> 
+						<img src='https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80'/>
+						<div class="text">
+							<h1>Lorem ipsum.</h1>
+							<h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+							<p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="tile"> 
+						<img src='https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80'/>
+						<div class="text">
+							<h1>Lorem ipsum.</h1>
+							<h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+							<p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<!-- contact Section -->
+	<div id="contact" class="paddsection">
+		<div class="container">
+			<div class="contact-block1">
+				<div class="row">
+
+					<div class="col-lg-6">
+						<div class="contact-contact">
+
+							<h2 class="mb-30">GET IN TOUCH</h2>
+
+							<ul class="contact-details">
+								<li><span>I</span></li>
+								<li><span>Sejong University, </span></li>
+								<li><span>+82 010-7322-6712</span></li>
+								<li><span>songyw0517@naver.com</span></li>
+							</ul>
+
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<form onsubmit="send_contact()" method="post" role="form" class="contactForm">
+							<div class="row">
+
+								<div class="col-lg-6">
+									<div class="form-group contact-block1">
+										<input type="text" name="name" class="form-control" id="ct_name"
+										placeholder="Your Name" data-rule="minlen:2"
+										data-msg="Please enter at least 2 chars" />
+										<div class="validation"></div>
+									</div>
+								</div>
+
+								<div class="col-lg-6">
+									<div class="form-group">
+										<input type="email" class="form-control" name="email" id="ct_email"
+										placeholder="Your Email" data-rule="email"
+										data-msg="Please enter a valid email" />
+										<div class="validation"></div>
+									</div>
+								</div>
+
+								<div class="col-lg-12">
+									<div class="form-group">
+										<input type="text" class="form-control" name="subject" id="ct_subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 4 chars of subject" />
+										<div class="validation"></div>
+									</div>
+								</div>
+
+								<div class="col-lg-12">
+									<div class="form-group">
+										<textarea class="form-control" name="message" id="ct_message" rows="12" data-rule="required"
+										data-msg="Please write something for us" placeholder="Message"></textarea>
+										<div class="validation"></div>
+									</div>
+								</div>
+
+								<div class="col-lg-12">
+									<input type="submit" class="btn btn-defeault btn-send" value="Send message">
+								</div>
+
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/c56e97fc26.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="../static/js/main.js"></script>
+	<script src="../static/js/animation.js"></script>
+	<script src="../static/js/drag_slider.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="../static/js/clock.js"></script>
+</body>
+</html>
